@@ -75,6 +75,10 @@ const LoginPage: NextPage<TProps> = () => {
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>
+        <Typography component="p" variant="h6" mt={2} color={"blue"}>
+          Welcome to Six shop
+        </Typography>
+
         <form
           autoComplete="off"
           noValidate
